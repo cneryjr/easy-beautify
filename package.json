@@ -1,0 +1,35 @@
+{
+  "name": "easy-beautify",
+  "version": "0.1.0",
+  "description": "Beautifier for javascript, html and css in gulp tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cneryjr/easy-beautify.git"
+  },
+  "keywords": [
+    "gulp",
+    "beautiful",
+    "beautifier",
+    "beautify",
+    "pretty",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Nery Jr <cneryjr@yahoo.com.br> (https://github.com/cneryjr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cneryjr/easy-beautify/issues"
+  },
+  "homepage": "https://github.com/cneryjr/easy-beautify#readme",
+  "dependencies": {
+    "clone": "^1.0.2",
+    "event-stream": "^3.3.1",
+    "js-beautify": "^1.5.10",
+    "through2": "^2.0.0"
+  }
+}
