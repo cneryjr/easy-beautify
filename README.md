@@ -8,8 +8,6 @@ Beautifier for javascript, html and css in gulp tasks.
 
 ## Usage
 
-<!-- language: lang-javascript -->
-
 ```javascript
 
     var beautify = require('easy-beautify');
@@ -44,6 +42,7 @@ Beautifier for javascript, html and css in gulp tasks.
 
 * 0.1.0 October/2015 - Initial release
 * 0.1.1 October/2015 - Fix README.md
+* 0.1.2 October/2015 - Fix index.js: remove debug code
 
 ## License
 

@@ -19,7 +19,6 @@ module.exports = function(opts) {
 
         if (file.isStream()) {
             var options = opts ? clone(opts) : {};
-            console.log("1.DEBUG ");
 
             return es.map(function(file, cb) {
             	var str = String(file.contents.toString('utf-8'));
@@ -29,7 +28,6 @@ module.exports = function(opts) {
             });
         }
 
-        console.log("2.DEBUG ");
         var str = file.contents.toString('utf-8');
 
         file.contents = new Buffer(beautify(str, opts));
