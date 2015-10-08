@@ -12,7 +12,7 @@ Beautifier for javascript, html and css in gulp tasks.
 
 ```javascript
 
-    var beautify = require('../easy-beautify.js');
+    var beautify = require('easy-beautify');
 	var opts = {
 	    "indent_size": 4,
 	    "indent_char": " ",
@@ -43,6 +43,7 @@ Beautifier for javascript, html and css in gulp tasks.
 ## Release History
 
 * 0.1.0 October/2015 - Initial release
+* 0.1.1 October/2015 - Fix README.md
 
 ## License
 

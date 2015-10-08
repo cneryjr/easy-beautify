@@ -1,6 +1,6 @@
 {
   "name": "easy-beautify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Beautifier for javascript, html and css in gulp tasks.",
   "main": "index.js",
   "scripts": {
